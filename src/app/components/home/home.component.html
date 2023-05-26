@@ -54,7 +54,6 @@
       </tbody>
      
     </table>
- 
     <div  class="flex justify-center mt-4">
       <input [(ngModel)]="itemsPerPage" (ngModelChange)="onEntriesPerPageChange($event)"  class="tw-mt-2 tw-bg-transparent tw-outline-none tw-border-slate-500 tw-rounded-md" type="number" id="numberr" name="numberr" min="0" max="10" >
       <nav *ngIf="books.length > itemsPerPage" class="tw-flex tw-rounded-md ">
